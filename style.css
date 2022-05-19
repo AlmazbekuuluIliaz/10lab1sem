@@ -1,0 +1,42 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+
+.actions {
+  text-align: center;
+}
+.playerY {
+  background-image: url("./img/ai.jpg");
+}
+.cell {
+  background-color: white;
+  border: 2px solid black;
+  float: left;
+  height: 96px;
+  width: 96px;
+}
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  width: fit-content;
+}
+.cell:hover {
+  border-color: red;
+}
+.playerX {
+  background-image: url("./img/player.jpg");
+}
+#tic-tac-toe-board {
+  display: block;
+  margin: 0 auto;
+}
+
+.canvas-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.canvas-wrapper-parent {
+  transform-style: preserver-3d;
+}
